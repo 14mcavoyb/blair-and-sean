@@ -10,6 +10,7 @@ body {
   background: #F1FAEE;
   font-family: "Raleway", sans-serif;
   font-size: 100%;
+  text-align: center;
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px 
