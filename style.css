@@ -2,7 +2,7 @@ header {
   background-color: #1D3557;
   text-align: center;
   color: white;
-  padding: 20px;
+  padding: 10px;
 }
 
 
@@ -19,7 +19,7 @@ p {
 }
 h1 {
   font-weight: bold;
-  font-size: 100;
+  font-size: 200;
   font-family: 'Sacramento', cursive;
 }
 h2{
