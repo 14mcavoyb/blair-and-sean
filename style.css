@@ -1,45 +1,13 @@
 header {
-  background: #1D3557;
+  background-color: #1D3557;
   text-align: center;
-  color: black;
+  color: white;
   padding: 20px;
 }
 
-.collapse{
- display: none; 
- padding: 0 10px;
- background: #EFEFED;
-}
-
-.button {
-  border: none;
-  font-family:monospace;
-  background: white;
-  padding: 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 12px;
-  margin: 10px;
-  cursor: pointer;
-}
-
-.unit{
-  background: white;
-  padding: 10px;
-  cursor: pointer;
-  border: 1px solid #DFDFDF;
-}
-.unit:hover {
-  background-color: #DFDFDF;
-}
-
-iframe{
-  float:left;
-  margin: 30px;
-}
 
 body {
-  background: white;
+  background: black;
   font: font-family: "Nunito Sans", serif;
 
 }
@@ -64,6 +32,7 @@ h1 {
 .row {
   display: flex;
   flex-wrap: wrap;
+  background-color: #F1FAEE;
 }
 
 /* Create two unequal columns that sits next to each other */
