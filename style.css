@@ -90,3 +90,15 @@ h3{
   background-color: #1D3557;
   color: white;
 }
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100%;
+}
+
+.gallery img {
+  width: 30%;
+  height: auto;
+}
