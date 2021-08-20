@@ -8,15 +8,15 @@ header {
 
 body {
   background: #F1FAEE;
-  font: font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
 
 }
 
 p {
   color: black;
   font-size: 25;
-  text-align: left
-
+  text-align: left;
+  font-family: "Raleway", sans-serif;
 }
 h1 {
   font-weight: bold;
