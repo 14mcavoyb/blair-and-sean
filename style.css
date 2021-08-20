@@ -83,7 +83,7 @@ h3{
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+/* Style the links inside the navigation bar 
 .topnav a {
   float: left;
   color: white;
@@ -92,7 +92,7 @@ h3{
   text-decoration: none;
 
 }
-
+*/
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #1D3557;
