@@ -58,21 +58,10 @@ h3{
   flex: 60%; /* Set the width of the main content */
   background-color: #F1FAEE; /* White background color */
   padding: 20px; /* Some padding */
-  color: white;
+  color: black;
 }
 
-.main::before {    
-      content: "";
-       background-image: url("jefferson.jpeg");
-      background-size: cover;
-  background-repeat: no-repeat;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.5;
-}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
