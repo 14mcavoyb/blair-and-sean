@@ -75,7 +75,7 @@ h3{
   padding: 20px; /* Some padding */
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
    .side {
    flex: 100%;
    }
@@ -88,7 +88,7 @@ h3{
   color: black;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
    .main {
    flex: 100%;
    }
