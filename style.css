@@ -53,8 +53,7 @@ h3{
 .img-container{
  width:100%;
   height:300px; 
-  display: flex;
-  flex-wrap: wrap;
+ 
 }
 
 /* Column container */
