@@ -2,14 +2,14 @@ header {
   background-color: #1D3557;
   text-align: center;
   color: white;
-  height: 15%;
+  margin: 5px;
 }
 
 
 body {
   background: #F1FAEE;
   font-family: "Raleway", sans-serif;
-
+  font-size: 100%;
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px 
@@ -27,23 +27,23 @@ body {
 }
 */
 p {
- font-size: 25;
+ font-size: 1.2em;
   text-align: center;
   font-family: "Raleway", sans-serif;
 }
 h1 {
   font-weight: bold;
-  font-size: 8vw;
+  font-size: 2em;
   font-family: 'Sacramento', cursive;
 }
 h2{
   font-weight: bold;
-  font-size: 35;
+  font-size: 1.3em;
    text-align: center;
 }
 h3{
   font-weight: bold;
-  font-size: 20;
+  font-size: 1em;
    text-align: center;
 }
 
