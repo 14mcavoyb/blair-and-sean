@@ -50,6 +50,10 @@ h3{
 * {
   box-sizing: border-box;
 }
+.img-container{
+ width:100%;
+  height:300px; 
+}
 
 /* Column container */
 .row {
