@@ -61,6 +61,7 @@ h3{
   padding: 20px; /* Some padding */
    background-image: url("jefferson.jpeg");
   background-size: auto;
+   background-repeat: no-repeat;
 }
 
 /* Add a black background color to the top navigation */
