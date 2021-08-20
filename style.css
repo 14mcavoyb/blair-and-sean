@@ -3,7 +3,6 @@ header {
   text-align: center;
   color: white;
   padding: 20px;
-  font-size: 100;
 }
 
 
@@ -14,7 +13,6 @@ body {
 }
 
 p {
-  color: black;
   font-size: 25;
   text-align: center;
   font-family: "Raleway", sans-serif;
@@ -49,6 +47,7 @@ h3{
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
+  color: black;
   flex: 40%; /* Set the width of the sidebar */
   background-color: #F1FAEE; /* Grey background color */
   padding: 20px; /* Some padding */
@@ -59,7 +58,6 @@ h3{
   flex: 60%; /* Set the width of the main content */
   background-color: #F1FAEE; /* White background color */
   padding: 20px; /* Some padding */
-   
   color: white;
 }
 
