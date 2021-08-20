@@ -49,16 +49,17 @@ h3{
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%; /* Set the width of the sidebar */
-  background-color: #f1f1f1; /* Grey background color */
+  flex: 40%; /* Set the width of the sidebar */
+  background-color: #F1FAEE; /* Grey background color */
   padding: 20px; /* Some padding */
 }
 
 /* Main column */
 .main {
-  flex: 70%; /* Set the width of the main content */
-  background-color: #F4A261; /* White background color */
+  flex: 60%; /* Set the width of the main content */
+  background-color: #F1FAEE; /* White background color */
   padding: 20px; /* Some padding */
+   background-image: url("jefferson.jpeg");
 }
 
 /* Add a black background color to the top navigation */
