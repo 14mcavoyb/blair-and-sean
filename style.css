@@ -101,7 +101,7 @@ h3{
 .topnav {
   background-color: #457B9D;
   overflow: hidden;
-  
+  margin: 5px;
 }
 
 /* Style the links inside the navigation bar */
