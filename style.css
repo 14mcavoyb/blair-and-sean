@@ -81,7 +81,7 @@ h3{
   color: black;
 }
 
-.main {
+.mainpic {
   flex: 60%; /* Set the width of the main content */
   background-image: url('jefferson2.png'); /* White background color */
   padding: 5px; /* Some padding */
