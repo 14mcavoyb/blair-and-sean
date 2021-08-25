@@ -2,7 +2,7 @@ header {
   background-color: #1D3557;
   text-align: center;
   color: white;
-  padding: 5px;
+  //padding: 5px;
 }
 
 
@@ -78,7 +78,7 @@ h3{
   color: black;
   flex: 40%; /* Set the width of the sidebar */
   background-color: #F1FAEE; /* Grey background color */
-  padding: 20px; /* Some padding */
+  //padding: 20px; /* Some padding */
 }
 
 @media (max-width: 1000px) {
@@ -90,7 +90,7 @@ h3{
 .main {
   flex: 60%; /* Set the width of the main content */
   background-color: #F1FAEE; /* White background color */
-  padding: 20px; /* Some padding */
+  //padding: 20px; /* Some padding */
   color: black;
 }
 
@@ -109,7 +109,7 @@ h3{
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float: center;
   color: white;
   text-align: center;
   padding: 14px 16px;
