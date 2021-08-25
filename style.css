@@ -81,6 +81,16 @@ h3{
   color: black;
 }
 
+.main {
+  flex: 60%; /* Set the width of the main content */
+  background-image: url('jefferson2.png'); /* White background color */
+  padding: 5px; /* Some padding */
+  color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
 @media (max-width: 1000px) {
    .main {
    flex: 100%;
