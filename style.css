@@ -81,14 +81,7 @@ h3{
   color: black;
 }
 
-.mainpic {
-  flex: 60%; /* Set the width of the main content */
-  background-image: url('jefferson2.png'); /* White background color */
-  padding: 5px; /* Some padding */
-  color: black;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
+
 
 
 @media (max-width: 1000px) {
@@ -101,12 +94,12 @@ h3{
 .topnav {
   background-color: #457B9D;
   overflow: hidden;
-  margin: 5px;
+  
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: center;
+  float: left;
   color: white;
   text-align: center;
   padding: 14px 16px;
