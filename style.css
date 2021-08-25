@@ -2,7 +2,7 @@ header {
   background-color: #1D3557;
   text-align: center;
   color: white;
-  //padding: 5px;
+  padding: 5px;
 }
 
 
@@ -13,20 +13,7 @@ body {
   text-align: center;
 }
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px 
-@media screen and (min-width: 601px) {
-  p{
-    font-size: 10vw;
-  }
-}
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px 
-@media screen and (max-width: 600px) {
-  p {
-    font-size: 12;
-  }
-}
-*/
 p {
  font-size: 1.2em;
   text-align: center;
@@ -78,7 +65,7 @@ h3{
   color: black;
   flex: 40%; /* Set the width of the sidebar */
   background-color: #F1FAEE; /* Grey background color */
-  //padding: 20px; /* Some padding */
+  padding: 5px; /* Some padding */
 }
 
 @media (max-width: 1000px) {
@@ -90,7 +77,7 @@ h3{
 .main {
   flex: 60%; /* Set the width of the main content */
   background-color: #F1FAEE; /* White background color */
-  //padding: 20px; /* Some padding */
+  padding: 5px; /* Some padding */
   color: black;
 }
 
