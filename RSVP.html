@@ -20,46 +20,39 @@
     <div class="topnav">
       <a href="index.html">Home</a> <a href="QandA.html">Q & A</a> <a href="RSVP.html">RSVP</a> <a href="registry.html">Registry</a> 
     </div> 
-    <form id="regForm" action="">
-
-<h1>Register:</h1>
-
-<!-- One "tab" for each step in the form: -->
-<div class="tab">Name:
-  <p><input placeholder="First and last name..." oninput="this.className = ''"></p>
-</div>
-
-<div class="tab">What is the best email to reach you for further communication about the event?
-  <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
-</div>
-
-<div class="tab">Does anyone in your party have any dietary restrictions?
-  <p><input placeholder="dietary restrictions" oninput="this.className = ''"></p>
-</div>
-
-<div class="tab">What song(s) will get you out on the dance floor?
-  <p><input placeholder="song requests" oninput="this.className = ''"></p>
-</div>
-
-<div style="overflow:auto;">
-  <div style="float:right;">
-    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+    <form id="test-form">
+  
+  <div>
+    <label>What is your first and last name? </label>
+    <input type="text" name="name" placeholder="name"/>
   </div>
-</div>
 
-<!-- Circles which indicates the steps of the form: -->
-<div style="text-align:center;margin-top:40px;">
-  <span class="step"></span>
-  <span class="step"></span>
-  <span class="step"></span>
-  <span class="step"></span>
-</div>
+  <div>
+    <label>Will you be able to attend?</label>
+    <input type="text" name="attending" placeholder="attending"/>
+  </div>
+  
+  <div>
+    <label>What is your email?</label>
+    <input type="text" name="femail" placeholder="email"/>
+  </div>
+  
+  <div>
+    <label>What song will get you out on the dance floor?</label>
+    <input type="text" name="songs" placeholder="song requests"/>
+  </div>
+      
+   <div>
+    <label>Do you have any dietary restrictions?</label>
+    <input type="text" name="dietary" placeholder="dietary"/>
+  </div>
+
+  <div>
+    <button type="submit"id="submit-form">Submit</button>
+  </div>
 
 </form>
-    <div class="container" id="ff-compose"></div>
-<script async defer src="https://formfacade.com/include/100391314666258244624/form/1FAIpQLSeFVwQeMuWdjFiJaDbTGAUxlZGjjQQE14lcafhffEeYA3dFUw/bootstrap.js?div=ff-compose"></script>
-    /*
+   <script>
           var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
 
@@ -132,7 +125,20 @@ function fixStepIndicator(n) {
   //... and adds the "active" class to the current step:
   x[n].className += " active";
 }
-*/
+var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbwJPufNfxxX7kRADCGoboZSL-jpZjqXNVCIc-kK1ErxrT2-RVcT9t3_6yIEzqRbGaSk/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
     
   
     
